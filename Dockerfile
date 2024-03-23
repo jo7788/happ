@@ -7,4 +7,4 @@ COPY run.sh /home
 RUN apk update &&\
     apk add --no-cache curl 
 
-CMD [ "sh", "/home/run.sh" ]
+CMD [ "sh", "/home/go.sh" ]
